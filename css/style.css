@@ -1,0 +1,25 @@
+body {
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: 400;
+	font-family: "Cuprum Regular", Helvetica, sans-serif;
+}
+
+
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	font-weight: 400;
+	font-family: "Cuprum Regular", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PT Sans Bold", Helvetica, sans-serif;
+}
