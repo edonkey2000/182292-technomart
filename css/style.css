@@ -371,3 +371,124 @@ div.container-2 {
 	width: 620px;
 	margin: 20px auto;
 }
+
+.main-catalog-top .container {
+	outline: 2px solid blue;
+}
+
+.main-catalog-top .bread-crumbs li {
+	display: inline-block;
+	margin-left: 0;
+	padding-left: 0;
+	
+}
+
+.main-catalog-top .bread-crumbs ul {
+	outline: 2px solid orange;
+	padding-left: 0;
+}
+
+.main-catalog-header {
+	outline: 2px solid orange;	
+}
+
+.main-left {
+	outline: 2px solid green;
+	width: 220px;
+	float: left;
+}
+
+.main-right {
+	outline: 2px solid blue;
+	float: right;
+	width: 700px;
+}
+
+.main-right .sort {
+	outline: 2px solid orange;	
+}
+
+.sort ul li{
+	display: inline-block;
+}
+
+.catalog-product-1 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-2 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-3 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;	
+}
+
+.catalog-product-4 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-5 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-6 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;	
+}
+
+.catalog-product-7 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-8 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;
+	margin-right: 20px
+}
+
+.catalog-product-9 {
+	outline: 2px solid green;
+	width: 220px;
+	height: 318px;
+	float: left;	
+}
+
+.pages li {
+	display: inline-block;
+}
+
+.pages ul {
+	padding-left: 0;
+}
+
+.main-catalog-bottom .container {
+	outline: 2px solid green;	
+}
