@@ -78,3 +78,296 @@ h3 {
 	font-weight: bold;
 	font-family: "PT Sans Bold", Helvetica, sans-serif;
 }
+
+.header {
+	height: 320px;
+}
+
+.container-1 {
+	background-color: #293449;
+	height: 42px;
+}
+
+.container {
+	background-color: white;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.container-1 .container {
+	height: 42px;
+}
+
+.logo {
+	float: left;
+	text-transform: uppercase;
+	background-color: #ee3643;
+	width: 220px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	box-shadow: 0 5px 0 #b52933;
+}
+
+.seach {
+	float: left;
+}
+
+.order {
+	float: right;
+	background-color: #63a63e;
+}
+
+.basket {
+	float: right;
+}
+
+.bookmarks {
+	float: right;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.description {
+	float: left;
+	width: 300px;
+}
+
+div.container-2 {
+	outline: 3px solid red;
+	background-color: #f1f5f7;
+	height: 280px;
+}
+
+.address {
+	float: left;
+	width: 300px;
+}
+
+.enter {
+	float: right;
+}
+
+
+.container-2 .container {
+	outline: 3px solid red;
+	height: 158px;
+}
+
+.header-menu li {
+	display: inline-block;
+}
+
+.header-menu {
+	background-color: #293449;
+	width: 900px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+.product-left {
+	width: 630px;
+	float: left;
+}
+
+.product-1 {
+	outline: 1px solid red;
+	float: left;
+	width: 300px;
+	height: 124px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.product-2 {
+	outline: 1px solid red;
+	float: left;
+	width: 300px;
+	height: 124px;
+}
+
+.product-3 {
+	outline: 1px solid red;
+	width: 620px;
+	height: 266px;
+	clear:both;
+}
+
+.product-right {
+	float: left;
+}
+
+.product-4 {
+	outline: 1px solid red;
+	width: 300px;
+	height: 124px;
+}
+
+.product-5 {
+	outline: 1px solid red;
+	width: 300px;
+	height: 124px;
+}
+
+.product-6 {
+	outline: 1px solid red;
+	width: 300px;
+	height: 124px;
+}
+
+.product-4 h2 {
+	margin-top: 0;	
+}
+
+.product-5 h2 {
+	margin-top: 20px;	
+}
+
+.product-6 h2 {
+	margin-top: 18px;	
+}
+
+.perforater {
+	outline: 2px solid green;
+	clear: both;
+}
+
+.perforater-1, .perforater-2, .perforater-3, .perforater-4 {
+	width: 220px;
+	height: 317px;
+	border: 1px solid #e5e5e5;
+	float: left;
+	margin-right: 17px;
+}
+
+.perforater-4 {
+	margin-right: 0px;
+}
+
+.popular {
+	outline: 2px solid red;
+}
+
+.brands {
+	outline: 2px solid blue;
+}
+
+.brand-logo {
+	outline: 2px solid red;
+}
+
+.brand {
+	outline: 2px solid green;
+	width: 220px;
+	height: 144px;
+	float: left;
+	margin-right: 20px;
+}
+
+.brand-interskol, .brand-metabo {
+	margin-right: 0px;
+}
+
+.brand-bosch, .brand-makita, .brand-dewalt, .brand-interskol {
+	margin-bottom: 20px;
+}
+
+.main-middle {
+	background-color: #f2f6f8;
+}
+
+.services-text {
+	width: 530px;
+}
+
+.services {
+	background-color: #f2f6f8;
+}
+
+.services-h2 {
+	outline: 2px solid green;
+}
+
+.services-menu {
+	outline: 2px solid green;
+	float: left;
+	width: 250px;
+}
+
+.delivery {
+	outline: 2px solid green;
+	float: right;
+	width: 650px;
+}
+
+.company {
+	outline: 2px solid green;
+	float: left;
+	width: 600px;
+}
+
+.mapa {
+	outline: 2px solid green;
+	float: right;
+	width: 305px;
+}
+
+.footer-nav1 li {
+	display: inline-block;
+	float: right;
+}
+
+.footer-top1, .footer-top2 {
+	outline: 2px solid green;
+}
+
+.footer-nav2 li {
+	display: inline-block;
+	float: right;
+}
+
+.footer-address {
+	float: left;
+}
+
+.footer-nav2 {
+	float: right;
+}
+
+.copyright {
+	outline: 2px solid green;
+	float: left;
+	width: 300px;
+	height: 80px;
+}
+
+.social-button {
+	outline: 2px solid green;
+	float: left;
+	width: 200px;
+	height: 80px;
+}
+
+.webmaster {
+	outline: 2px solid green;
+	float: right;
+	width: 140px;
+	height: 80px;
+}
+
+.feedback {
+	outline: 2px solid green;
+	float: right;
+	width: 170px;
+	height: 80px;
+}
+
+.modal-window {
+	outline: 2px solid blue;
+	width: 620px;
+	margin: 20px auto;
+}
