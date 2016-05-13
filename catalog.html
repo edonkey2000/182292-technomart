@@ -16,38 +16,43 @@
                 <div class="seach">
                     <form action="#" method="get">
                         <i class="icon-search"></i>
-                        <input type="text" name="search" value="Поиск:">
+                        <input type="text" id="search-input" name="search-input" class="search-input" placeholder="Поиск:">
+                        <label for="search-input"></label>
                     </form>
                 </div>
                 <div class="order">
                 	<a href="#">Оформить заказ</a>
                 </div>
-                <div class="basket">
+                <div class="basket basket-check">
                 	<a href="#"><i class="icon-basket"></i>Корзина: 10</a>
                 </div>
                 <div class="bookmarks">
                 	<a href="#"><i class="icon-bookmark"></i>Закладки: 0</a>
                 </div>                 
-            </div>                       
+            </div>                        
         </div>
         <div class="container-2">
-            <div class="container">
-                <div class="description clearfix">
+            <div class="container clearfix">
+                <div class="description">
                 	Интернет-магазин строительных материалов и инструментов для ремонта
                 </div>
                 <div class="address">
-                	<i class="icon-phone"></i><a href="tel:+78125550555">+7 (812) 555-05-55</a> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                	<p>
+                		<i class="icon-phone"></i>
+                		<a href="tel:+78125550555">+7 (812) 555-05-55</a>
+                	</p>
+                	<p>
+                		г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                	</p>
                 </div>
                 <div class="enter">
                     <div class="profile">
-                    	<a href="#" class="user-name"><i class="icon-user"></i> Равшан Джамшутович</a>
+                    	<a href="#" class="user-name"><i class="icon-user"></i>Равшан Джамшутович</a>
                     	<a href="#"><i class="icon-logout"></i></a>
                     </div>
-                    <div>
-                    	<ul>
-                    		<li><a href="#">Мои заказы</a></li>
-                    		<li><a href="#">Личный кабинет</a></li>
-                    	</ul>
+                    <div class="cabinet">
+						<a href="#">Мои заказы</a>
+						<a href="#" class="dot">Личный кабинет</a>
                     </div>
                 </div>
             </div>
@@ -55,14 +60,14 @@
                 <ul class="header-menu">
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="#">Компания</a></li>
-                    <li><a href="#">Каталог</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
                     <li><a href="#">Новости</a></li>
                     <li><a href="#">Спецпредложения</a></li>
                     <li><a href="#">Доставка</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>                    
-            </nav>                
-        </div>
+            </nav>                            
+        </div>        
     </header>
     <div class="main-catalog-top clearfix">
     	<div class="container">
