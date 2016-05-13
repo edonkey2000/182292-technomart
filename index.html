@@ -16,7 +16,8 @@
                 <div class="seach">
                     <form action="#" method="get">
                         <i class="icon-search"></i>
-                        <input type="text" name="search" value="Поиск:">
+                        <input type="text" id="search-input" name="search-input" class="search-input" placeholder="Поиск:">
+                        <label for="search-input"></label>
                     </form>
                 </div>
                 <div class="order">
@@ -36,11 +37,21 @@
                 	Интернет-магазин строительных материалов и инструментов для ремонта
                 </div>
                 <div class="address">
-                	<i class="icon-phone"></i><a href="tel:+78125550555">+7 (812) 555-05-55</a> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                	<p>
+                		<i class="icon-phone"></i>
+                		<a href="tel:+78125550555">+7 (812) 555-05-55</a>
+                	</p>
+                	<p>
+                		г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                	</p>
                 </div>
                 <div class="enter">
-                    <a href="#" class="login"><i class="icon-login"></i>Войти</a>
-                    <a href="#" class="registration">Регистрация</a>
+					<div class="enter-login">
+						<a href="#" class="login"><i class="icon-login"></i>Войти</a>
+					</div>
+					<div class="enter-registration">
+						<a href="#" class="registration">Регистрация</a>
+					</div>                    
                 </div>
             </div>
             <nav class="nav-header">
