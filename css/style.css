@@ -470,6 +470,9 @@ div.container-2 .container {
   	text-decoration: none;
 }
 
+
+
+
 /*==========>>>..........MAIN..........<<<==========*/
 
 .header {
@@ -624,61 +627,242 @@ div.container-2 .container {
 	width: 305px;
 }
 
-.footer-nav1 li {
-	display: inline-block;
-	float: right;
+/*==========>>>..........FOOTER..........<<<==========*/
+
+.footer {
+	background-color: #32425c;
+	color: #f1f5f7;
+	font-size: 18px;
+	line-height: 24px;
 }
 
-.footer-top1, .footer-top2 {
-	outline: 2px solid green;
+.footer-top {
+    margin-bottom: 35px;
 }
 
-.footer-nav2 li {
-	display: inline-block;
-	float: right;
+/*==========>>>(логотип)<<<==========*/
+
+.logo-footer {
+    float: left;
+	width: 220px;
+    text-align: center;
+	background-color: #ee3643;
+	box-shadow: 0 5px 0 #b52933;
 }
+
+.logo-footer a {
+	display: block;
+	padding: 15px 0;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+	vertical-align: top;
+	font-family: "Cuprum", Verdana, sans-serif;
+	font-size: 30px;
+}
+
+/*==========>>>(меню футера 1)<<<==========*/
+
+.footer-menu {
+    float: right;
+	width: 720px;
+	margin: 0;
+	margin-top: 35px;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	text-align: right;
+}
+
+.footer-menu li {
+    display: inline-block;
+	vertical-align: bottom;
+	margin-left: 60px;
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.footer-menu a {
+	color: #f1f5f7;
+	text-decoration: none;
+}
+
+.footer-top1 {
+	background-color: #32425c;
+	margin-bottom: 32px;
+}
+
+/*==========>>>(адрес футера)<<<==========*/
 
 .footer-address {
 	float: left;
+    width: 340px;
+	font-family: "Cuprum", Verdana, sans-serif;
+	font-size: 18px;
 }
 
+/*==========>>>(меню футера 2)<<<==========*/
+
 .footer-nav2 {
-	float: right;
+    float: right;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	text-align: right;
+}
+
+.footer-nav2 li {
+    display: inline-block;
+	vertical-align: top;
+	margin-left: 60px;
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.footer-nav2 a {
+	color: #ffd180;
+	font-family: "Cuprum", Verdana, sans-serif;
+	font-size: 18px;
+}
+
+.footer-top2 {
+	background-color: #32425c;
+}
+
+/*==========>>>(подвал футера)<<<==========*/
+
+.footer-bottom .container {
+	background-color: #293449;
+}
+
+.footer-bottom {
+	padding-top: 36px;
+	padding-bottom: 30px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
+    background-color: #293449;
 }
 
 .copyright {
-	outline: 2px solid green;
 	float: left;
-	width: 300px;
-	height: 80px;
+	width: 350px;
+	margin: 0;
+	margin-right: 5px;
+	padding: 0;
+	font-family: "Cuprum", Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #293449;
 }
+
+
+/*==========>>>(подвал футера - социальные кнопки)<<<==========*/
 
 .social-button {
-	outline: 2px solid green;
 	float: left;
 	width: 200px;
-	height: 80px;
+	margin: 0;
+	padding: 0 0;
+	text-align: center;
 }
 
-.webmaster {
-	outline: 2px solid green;
-	float: right;
-	width: 140px;
-	height: 80px;
+.social {
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+	width: 40px;
+	font-size: 17px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #212a3a;
+	border-radius: 20px;
 }
 
-.feedback {
-	outline: 2px solid green;
-	float: right;
-	width: 170px;
-	height: 80px;
+.social:hover, .social:active {
+	background-color: #ee3643;
 }
+
+/*==========>>>(подвал футера - вэбмастер & фидбэк)<<<==========*/
+
+
+.footer-link {
+	float: right;
+	width: 380px;
+	text-align: right;
+	font-family: "Cuprum", Verdana, sans-serif;
+	font-size: 16px;
+	background-color: #293449;
+}
+
+.webmaster, .feedback {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 40px;
+	margin-top: 0;
+	margin-right: 10px;
+	text-align: left;
+}
+
+.webmaster p {
+	margin: 0;
+	padding: 0;
+}
+
+.webmaster a {
+	color: #ffd180;
+}
+
+.webmaster a:hover {
+	text-decoration: underline;
+}
+
+.webmaster a:active {
+	color: #ee3643;
+	text-decoration: none;
+}
+
+.feedback p {
+	margin: 0;
+	padding: 0;
+}
+
+.feedback a {
+	color: #ffd180;
+}
+
+.feedback a:hover {
+	text-decoration: underline;
+}
+
+.feedback a:active {
+	color: #ee3643;
+	text-decoration: none;
+}
+
+
+
 
 .modal-window {
 	outline: 2px solid blue;
 	width: 620px;
 	margin: 20px auto;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .main-catalog-top .container {
 	outline: 2px solid blue;
