@@ -1082,22 +1082,49 @@ div.container-2 .container {
 
 /*==========>>>..........ДОСТАВКА..........<<<==========*/
 
-.delivery {
-	outline: 2px solid green;
-	float: right;
-	width: 650px;
+.info-company-left {
+    float: left;
+    width: 520px;
 }
 
-.company {
-	outline: 2px solid green;
-	float: left;
-	width: 600px;
+.info-company-right {
+    float: right;
+    width: 300px;
 }
 
-.mapa {
-	outline: 2px solid green;
-	float: right;
-	width: 305px;
+.info-company {
+    padding-top: 34px;
+    padding-bottom: 87px;
+}
+
+.info-more-btn {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 220px;
+    margin-top: 36px;
+}
+
+.info-map {
+    padding-top: 33px;
+    margin-bottom: 40px;
+}
+
+.map-btn {
+    display: block;
+    width: 300px;
+    height: 158px;
+}
+
+.map-btn:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.map-btn:active {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.feedback-btn {
+    display: block;
 }
 
 /*==========>>>..........FOOTER..........<<<==========*/
@@ -1318,15 +1345,6 @@ div.container-2 .container {
 }
 
 
-
-
-.modal-window {
-	outline: 2px solid blue;
-	width: 620px;
-	margin: 20px auto;
-}
-
-
 /*==========>>>..........КАТАЛОГ..........<<<==========*/
 
 
@@ -1544,5 +1562,6 @@ div.container-2 .container {
 	font-family: "PT Sans", Verdana, sans-serif;
 }
 
+/*==========>>>..........МОДАЛЬНОЕ ОКНО..........<<<==========*/
 
 
