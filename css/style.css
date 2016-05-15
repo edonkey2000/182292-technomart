@@ -125,8 +125,7 @@ h3 {
 	font-family: "PT Sans Bold", Verdana, sans-serif;
 }
 
-.container {
-	background-color: white;
+.container {	
 	width: 940px;
 	margin: 0 auto;
 }
@@ -140,6 +139,30 @@ a {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+/*==========>>>..........КРАСНАЯ КНОПКА..........<<<==========*/
+
+.btn {
+	margin: 0;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	background: #ee3643;
+	border-radius: 2px;
+}
+
+.btn:hover
+{
+	background: #ca2c37;
+}
+
+.btn:active
+{
+	background: #ba2732;
 }
 
 /*==========>>>..........HEADER..........<<<==========*/
@@ -659,27 +682,230 @@ div.container-2 .container {
 }
 
 .product {
-	outline: 2px solid green;
 	clear: both;
 }
 
-/*==========>>>(популярные товары)<<<==========*/
+/*==========>>>(популярные товары - надпись и кнопка)<<<==========*/
 
-.product-popular {
-	width: 220px;
-	height: 317px;
-	border: 1px solid #e5e5e5;
-	float: left;
-	margin-right: 17px;
-}
-
-.product-popular:last-child {
-	margin-right: 0px;
+.container .popular {
+	margin-top: 54px;
 }
 
 .popular {
-	outline: 2px solid red;
+    margin-bottom: 20px;
+	background-color: #f7f3ec;
 }
+
+.popular-title {
+    float:left;
+	font-size: 30px;
+	font-weight: normal;
+    margin: 0;
+    padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;	
+	padding-left: 26px;	
+	line-height: 30px;
+	color: #32425c;	
+	text-transform: uppercase;
+}
+
+.popular-title-btn {
+	position: relative;
+    float: right;
+	min-width: 253px;
+	top: 25px;
+	right: 24px;
+	background-color: #ee3643;
+	font-family: "Cuprum", Verdana, sans-serif;
+}
+
+/*==========>>>(популярные товары - перфораторы)<<<==========*/
+
+.product-popular {
+    float: left;
+    width: 200px;
+    min-height: 317px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 0 1px #e5e5e5 inset;
+}
+
+.product-popular:hover {
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.product-popular:hover .product-view {
+	display: none;
+}
+
+.product-popular:hover .shoping {
+	display: block;
+}
+
+.product-top-block {
+	height: 168px;
+}
+
+.shoping {
+	display: none;
+	margin-left: 32px;
+	padding-top: 40px;
+	width: 135px;
+}
+
+.product-view {
+	position: relative;
+	height: 100%;
+	top: -10px;
+}
+
+.product-view img {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.to-buy {
+	position: relative;
+	display: block;
+	min-width: 135px;
+	margin-bottom: 10px;
+	padding-top: 13px;
+	padding-bottom: 8px;
+	font-size: 14px;
+	line-height: 14px;
+	background: #63a63e;
+	box-shadow: 0 3px 0 #367315;
+	font-family: "Cuprum", Verdana, sans-serif;
+}
+
+.to-buy:hover {
+	background: #5fbb2d;
+}
+
+.to-buy:active {
+	background: #518534;
+	box-shadow: 0 3px 0 #518534;
+}
+
+.to-buy::before {
+	content: "\62";
+	position: absolute;
+	left: 12px;
+	top: 0;
+	font-size: 17px;
+	line-height: 35px;
+	font-family: "symbols-technomart";
+	opacity: 0.3;
+	text-transform: none;
+}
+
+.to-bookmark {
+	display: block;
+	min-width: 130px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color: #32425c;
+	font-size: 14px;
+	line-height: 14px;
+	background: transparent;
+	border: 3px solid #63a63e;
+	font-family: "Cuprum", Verdana, sans-serif;
+}
+
+.to-bookmark:hover {
+	background: transparent;
+	border: 3px solid #32425c;
+}
+
+.to-bookmark:active {
+	background: transparent;
+	border: 3px solid #32425c;
+	opacity: 0.3;
+}
+
+.product-name {
+	margin-bottom: 13px;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	font-family: "PT Sans", Verdana, sans-serif;
+}
+
+.product-price-old {
+	margin-bottom: 10px;
+	font-size: 17px;
+	line-height: 18px;
+	color: #999999;
+	font-weight: bold;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	font-family: "PT Sans", Verdana, sans-serif;
+}
+
+.product-price {
+	position: relative;
+	left: 3px;
+	display: inline-block;
+	min-width: 140px;
+	padding: 10px;
+	font-size: 17px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "PT Sans", Verdana, sans-serif;
+	overflow: hidden;
+	background: #ee3643;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.product-price::after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	right: -23px; 
+	border: 22px solid transparent;
+	border-top: 22px solid #ffffff;
+}
+
+.product-price::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	right: -23px; 
+	border: 22px solid transparent;
+	border-bottom: 22px solid #ffffff;
+}
+
+.product-name + .product-price {
+	margin-top: 28px;
+}
+
+.products {
+	margin-bottom: 2px;
+	padding: 0;
+}
+
+.products-index .product-popular:nth-child(4n),
+.products-catalog .product-popular:nth-child(3n)
+{
+    margin-right: -1px;
+}
+
+/*==========>>>(популярные производители)<<<==========*/
 
 .brands {
 	outline: 2px solid blue;
@@ -1191,26 +1417,3 @@ div.container-2 .container {
 
 
 
-/*==========>>>..........КРАСНАЯ КНОПКА..........<<<==========*/
-
-.btn {
-	margin: 0;
-	padding: 10px;
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-align: center;
-	background: #ee3643;
-	border-radius: 2px;
-}
-
-.btn:hover
-{
-	background: #ca2c37;
-}
-
-.btn:active
-{
-	background: #ba2732;
-}
