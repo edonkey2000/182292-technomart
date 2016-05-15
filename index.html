@@ -190,46 +190,75 @@
             </div>            
         </div>
         <div class="container">
-            <div class="brands">
-                <div>
-                    <h2>Популярные производители:</h2>
-                    <a href="#">Все популярные производители</a>
-                </div>
+            <div class="popular clearfix">
+                <h2 class="popular-title">Популярные производители:</h2>
+                <a href="#" class="popular-title-btn btn">Все популярные производители</a>
             </div>
-            <div class="brand-logo clearfix">
-               <div class="brand-bosch brand"><a href="#"><img src="img/brand_bosch.png" alt="BOSCH" width="126" height="37"></a>
+            <div class="brands brands-index clearfix">
+               <div class="brand"><a href="#"><img src="img/brand_bosch.png" alt="BOSCH" width="126" height="37"></a>
                </div>
-               <div class="brand-makita brand"><a href="#"><img src="img/brand_makita.png" alt="Makita" width="123" height="40"></a>
+               <div class="brand"><a href="#"><img src="img/brand_makita.png" alt="Makita" width="123" height="40"></a>
                </div>
-               <div class="brand-dewalt brand"><a href="#"><img src="img/brand_dewalt.png" alt="dewalt" width="146" height="44"></a>   	
+               <div class="brand"><a href="#"><img src="img/brand_dewalt.png" alt="dewalt" width="146" height="44"></a>   	
                </div>
-               <div class="brand-interskol brand"><a href="#"><img src="img/brand_interskol.png" alt="Интерскол" width="200" height="88"></a></div>
-               <div class="brand-hitachi brand"><a href="#"><img src="img/brand_hitachi.png" alt="HITACHI" width="169" height="31"></a></div>
-               <div class="brand-lg brand"><a href="#"><img src="img/brand_lg.png" alt="LG" width="121" height="73"></a></div>
-               <div class="brand-aeg brand"><a href="#"><img src="img/brand_aeg.png" alt="AEG" width="151" height="96"></a></div>
-               <div class="brand-metabo brand"><a href="#"><img src="img/brand_metabo.png" alt="Metabo" width="204" height="69"></a></div>
+               <div class="brand"><a href="#"><img src="img/brand_interskol.png" alt="Интерскол" width="200" height="88"></a></div>
+               <div class="brand"><a href="#"><img src="img/brand_hitachi.png" alt="HITACHI" width="169" height="31"></a></div>
+               <div class="brand"><a href="#"><img src="img/brand_lg.png" alt="LG" width="121" height="73"></a></div>
+               <div class="brand"><a href="#"><img src="img/brand_aeg.png" alt="AEG" width="151" height="96"></a></div>
+               <div class="brand"><a href="#"><img src="img/brand_metabo.png" alt="Metabo" width="204" height="69"></a></div>
                <div class="clearfix"></div>
             </div>            
         </div>        
     </div>
     <div class="main-middle">
-       <div class="container services clearfix">
-           <div class="services-h2"><h2>Сервисы</h2>
-               <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами!
-               Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-           </div>
-           <div class="services-menu">
-               <ul >
-                   <li>Доставка</li>
-                   <li>Гарантия</li>
-                   <li>Кредит</li>
-               </ul>
-           </div>
-           <div class="delivery"><h2>Доставка</h2>
-               Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!
-               <img src="img/service_1.png" alt="доставка" width="468" height="261">
-           </div>                                
-       </div>                
+		<div class="container">
+			<div class="services-title-content content">
+				<h2>Сервисы</h2>
+				<p>
+					Хороший интернет-магазин отличается от плохого не только ценами!<br>
+					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+				</p>
+			</div>
+            <input type="radio" id="services-btn-1" name="services-toggle" checked>
+            <input type="radio" id="services-btn-2" name="services-toggle">
+            <input type="radio" id="services-btn-3" name="services-toggle">
+            <div class="services-slider clearfix">
+                <div class="services-slider-controls">
+                    <label for="services-btn-1">Доставка</label>
+                    <label for="services-btn-2">Гарантия</label>
+                    <label for="services-btn-3">Кредит</label>
+                </div>
+            	<div class="services-slides">
+                	<div class="services-slide">
+						<h2 class="services-slide-title">Доставка</h2>
+						<p class="services-slide-desc">
+							Мы с удовольствием доставим ваш товар прямо<br>
+							к вашему подъезду совершенно бесплатно!<br>
+							Ведь мы неплохо заработаем,<br>
+							поднимая его на ваш на этаж!
+						</p>
+                	</div>
+                	<div class="services-slide">
+						<h2 class="services-slide-title">Гарантия</h2>
+							<p class="services-slide-desc">
+							Если купленный у нас товар поломается или заискрит,<br>
+							а также в случае пожара, спровоцированного его возгаранием,<br>
+							вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
+							сгоревший товар на новый.<br>
+							Дом уж восстановите как-нибудь сами.
+						</p>
+                	</div>
+                    <div class="services-slide">
+						<h2 class="services-slide-title">Кредит</h2>
+						<p class="services-slide-desc">
+							Залезть в долговую яму стало проще!<br>
+							Кредитные консультанты придут вам на помощь.
+						</p>
+						<a class="credit-btn btn" href="#">Отправить заявку</a>
+                    </div>
+                </div>
+            </div>
+		</div>               
     </div>
     <div class="main-bottom">
        <div class="container clearfix">

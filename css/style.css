@@ -111,7 +111,7 @@ body {
 h2 {
 	font-size: 30px;
 	line-height: 30px;
-	color: #32425c;
+	color: #000000;
 	font-weight: 400;
 	font-family: "Cuprum", Verdana, sans-serif;
 	text-transform: uppercase;
@@ -908,50 +908,179 @@ div.container-2 .container {
 /*==========>>>(популярные производители)<<<==========*/
 
 .brands {
-	outline: 2px solid blue;
+	padding: 0 1px;
 }
 
-.brand-logo {
-	outline: 2px solid red;
+.brands-index .brand:nth-child(4n) {
+    margin-right: -1px;
+}
+
+.brands-index {
+	margin-right: -1px;
+	margin-bottom: 66px;
 }
 
 .brand {
-	outline: 2px solid green;
-	width: 220px;
-	height: 144px;
-	float: left;
-	margin-right: 20px;
+	position: relative;
+    float: left;
+    width: 219px;
+    height: 142px;
+    margin-bottom: 22px;
+    margin-right: 21px;
+	box-shadow: 0 0 0 1px #e5e5e5;
 }
 
-.brand-interskol, .brand-metabo {
-	margin-right: 0px;
+.brand:hover {
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.brand-bosch, .brand-makita, .brand-dewalt, .brand-interskol {
-	margin-bottom: 20px;
+.brand:active {
+	opacity: 0.5;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
+
+.brand a {
+	display: block;
+	height: 100%;
+}
+
+.brand img {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+
+
+/*==========>>>..........СЕРВИСЫ..........<<<==========*/
 
 .main-middle {
-	background-color: #f2f6f8;
+	padding-top: 18px;
+	background: #f2f6f8
 }
 
-.services-text {
-	width: 530px;
+.services-title-content {
+	margin-bottom: 70px;
 }
 
-.services {
-	background-color: #f2f6f8;
-}
-
-.services-h2 {
-	outline: 2px solid green;
-}
-
-.services-menu {
-	outline: 2px solid green;
+.services-slider-controls {
+    position: relative;
 	float: left;
-	width: 250px;
+	width: 240px;
+    height: 100%;
+	padding-top: 4px;
+    margin-right: 80px;
+    margin-bottom: 102px;
 }
+
+.services-slides {
+    float: left;
+    width: 620px;
+}
+
+.services-slider-controls::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -139px;
+    width: 10px;
+    height: 279px;
+    background: transparent url(../img/shadow.png) no-repeat 100% 100%;
+}
+
+.services-slider-controls label {
+    display: block;
+	padding: 12px 22px;
+    padding-bottom: 16px;
+    color: #ffffff;
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: bold;
+	background: #32425c;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+    cursor: pointer;
+	font-family: "Cuprum Bold", Verdana, sans-serif;
+	font-size: 21px;
+}
+
+.services-slider-controls label:hover {
+    background: #293449;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+}
+
+.services input[type=radio] {
+    position: absolute;
+    opacity: 0;
+}
+
+#services-btn-1:checked ~ .services-slider label[for="services-btn-1"],
+#services-btn-2:checked ~ .services-slider label[for="services-btn-2"],
+#services-btn-3:checked ~ .services-slider label[for="services-btn-3"] { 
+    color: #32425c;
+	background-color: #ffffff;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+#services-btn-1:checked ~ .services-slider .services-slide:nth-child(1), 
+#services-btn-2:checked ~ .services-slider .services-slide:nth-child(2), 
+#services-btn-3:checked ~ .services-slider .services-slide:nth-child(3) {
+    display: block;
+}
+
+.services-slide {
+    display: none;
+}
+
+#services-btn-1:checked ~ .services-slider {
+	background: #f2f6f8 url(../img/service_1.png) no-repeat 100% 100%;
+}
+
+#services-btn-2:checked ~ .services-slider {
+	background: #f2f6f8 url(../img/service_2.png) no-repeat 100% 100%;
+}
+
+#services-btn-3:checked ~ .services-slider {
+	background: #f2f6f8 url(../img/service_3.png) no-repeat 100% 100%;
+}
+
+.credit-btn {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 192px;
+    margin-top: 29px;
+}
+
+.services-slide-title {
+	margin: 0;
+	margin-bottom: 24px;
+	padding: 0;
+	color: #32425c;
+	font-size: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.services-slide-desc {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 25px;
+	font-family: "PT Sans", "Arial", sans-serif;
+}
+
+#services-btn-1, #services-btn-2, #services-btn-3 {
+	visibility: hidden;
+}
+
+/*==========>>>..........ДОСТАВКА..........<<<==========*/
 
 .delivery {
 	outline: 2px solid green;
