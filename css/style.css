@@ -197,9 +197,19 @@ a {
 	box-shadow: 0 5px 0 #b52933;
 }
 
+.logo:hover {
+    background: #ca2c37;
+    box-shadow: 0 5px 0 #9a212a;
+}
+
+.logo:active {
+    background: #ba2732;
+    box-shadow: 0 5px 0 #8e1e26;
+}
+
 /*==========>>>(поиск)<<<==========*/
 
-.seach {
+.search {
 	float: left;
 	background-color: #293449;
 	width: 270px;
@@ -224,6 +234,22 @@ a {
 	background-color: #293449;
 }
 
+.search-input:focus {
+    position: relative;
+    outline: none;
+    color: #000000;
+    background: #ffffff;
+}
+
+.search-input:hover + label:after {
+    opacity: 1.0;
+}
+
+.search-input:focus + label:after {
+    color: #ee3643;
+    opacity: 1.0;
+}
+
 /*==========>>>(оформить заказ)<<<==========*/
 
 .order {
@@ -237,6 +263,17 @@ a {
 	text-align: center;
 }
 
+
+.order:hover {
+    background: #5fbb2d;
+    opacity: 1.0;
+}
+
+.order:active {
+    color: #b7c9af;
+    background: #518534;
+    opacity: 1.0;
+}
 /*==========>>>(корзина)<<<==========*/
 
 .basket {
@@ -255,6 +292,16 @@ a {
 	margin-right: 16px;
 }
 
+.basket:hover .icon-basket {
+	color: #fff;
+	opacity: 1.0;
+}
+
+.basket:active {
+    background: #161d29;
+    opacity: 0.6;
+}
+
 /*==========>>>(закладки)<<<==========*/
 
 .bookmarks {
@@ -271,6 +318,21 @@ a {
 .icon-bookmark {
 	opacity: 0.3;
 	margin-right: 13px;
+}
+
+.icon-bookmark {
+	opacity: 0.3;
+	margin-right: 16px;
+}
+
+.bookmarks:hover .icon-bookmark {
+	color: #fff;
+	opacity: 1.0;
+}
+
+.bookmarks:active {
+    background: #161d29;
+    opacity: 0.6;
 }
 
 /*==========>>>(header серединка)<<<==========*/
@@ -379,6 +441,39 @@ div.container-2 .container {
 	color: #000;
 }
 
+
+.login:hover,
+.registration:hover,
+.sign-out:hover {
+    color: #ee3643;
+}
+
+.login:active,
+.registration:active,
+.user-name:active {
+    color: #cacaca;
+}
+
+.login:hover::before {
+    color: #32425c;
+}
+
+
+
+/*.user-name:hover::before,
+.user-name:hover::after {
+    color: #32425c;
+}
+
+.user-name:active::before,
+.user-name:active::after {
+    color: #c5c5c5;
+}*/
+
+
+
+
+
 /*==========>>>(корзина, войти регистрация - каталог)<<<==========*/
 
 .basket-check {
@@ -456,6 +551,14 @@ div.container-2 .container {
     border-radius: 2px;
 }
 
+.user-link:hover {
+    color: #ee3643;
+}
+
+.user-link:active {
+    color: #cacfd5;
+}
+
 /*==========>>>(навигация)<<<==========*/
 
 .container-2 .container {
@@ -493,7 +596,15 @@ div.container-2 .container {
   	text-decoration: none;
 }
 
+.header-menu a:hover {
+    background: #293449;
+}
 
+.header-menu a:active {
+    color: #a8abaf;
+    background: #1d2739;
+	box-shadow: 0 5px 0px #1d2739;
+}
 
 
 /*==========>>>..........MAIN..........<<<==========*/
@@ -518,6 +629,14 @@ div.container-2 .container {
 	bottom: 22px;
 	line-height: 38px;
 	text-align: center;
+}
+
+.category-button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.category-button:active {
+    background: rgba(0, 0, 0, 0.3);
 }
 
 /*==========>>>(картинки в категориях)<<<==========*/
@@ -1162,6 +1281,16 @@ div.container-2 .container {
 	font-size: 30px;
 }
 
+.logo-footer:hover {
+    background: #ca2c37;
+    box-shadow: 0 5px 0 #9a212a;
+}
+
+.logo-footer:active {
+    background: #ba2732;
+    box-shadow: 0 5px 0 #8e1e26;
+}
+
 /*==========>>>(меню футера 1)<<<==========*/
 
 .footer-menu {
@@ -1192,6 +1321,15 @@ div.container-2 .container {
 .footer-top1 {
 	background-color: #32425c;
 	margin-bottom: 32px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-menu a:active {
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 /*==========>>>(адрес футера)<<<==========*/
@@ -1232,6 +1370,15 @@ div.container-2 .container {
 
 .footer-top2 {
 	background-color: #32425c;
+}
+
+.footer-nav2 a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav2 a:active {
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 /*==========>>>(подвал футера)<<<==========*/
@@ -1343,7 +1490,6 @@ div.container-2 .container {
 	color: #ee3643;
 	text-decoration: none;
 }
-
 
 /*==========>>>..........КАТАЛОГ..........<<<==========*/
 
