@@ -806,9 +806,13 @@ div.container-2 .container {
 
 /*==========>>>(популярные товары - надпись и кнопка)<<<==========*/
 
-.container .popular {
-	margin-top: 54px;
+
+.product-popular-index {
+	margin-top: 50px;
 }
+
+
+
 
 .popular {
     margin-bottom: 20px;
@@ -832,7 +836,7 @@ div.container-2 .container {
 .popular-title-btn {
 	position: relative;
     float: right;
-	min-width: 253px;
+	min-width: 233px;
 	top: 25px;
 	right: 24px;
 	background-color: #ee3643;
@@ -844,7 +848,7 @@ div.container-2 .container {
 .product-popular {
     float: left;
     width: 200px;
-    min-height: 317px;
+    min-height: 295px;
     margin-bottom: 20px;
     margin-right: 20px;
 	padding: 10px;
@@ -1026,6 +1030,8 @@ div.container-2 .container {
 
 /*==========>>>(популярные производители)<<<==========*/
 
+
+
 .brands {
 	padding: 0 1px;
 }
@@ -1076,8 +1082,9 @@ div.container-2 .container {
 
 /*==========>>>..........СЕРВИСЫ..........<<<==========*/
 
+
 .main-middle {
-	padding-top: 18px;
+	/*padding-top: 18px;*/
 	background: #f2f6f8
 }
 
@@ -2214,3 +2221,16 @@ div.container-2 .container {
 	outline: 0;
 	border: 0;
 }
+
+/*костыли*/
+
+.footer-nav1 .footer-menu li {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Cuprum", Verdana, sans-serif;
+}
+
+.header-menu li {
+	font-family: "Cuprum", Verdana, sans-serif;
+}
+
