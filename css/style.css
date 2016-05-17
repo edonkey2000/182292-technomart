@@ -2138,4 +2138,79 @@ div.container-2 .container {
 
 /*==========>>>..........МОДАЛЬНОЕ ОКНО..........<<<==========*/
 
+.contact-form {
+	display: none;
+	position: fixed;
+	bottom: 20%;
+	left: 25%;
+	width: 620px;
+	min-height: 400px;
+	background: #ffffff;
+	border-top: 7px solid #ee3643;
+	font-size: 0;
+	box-shadow: 0px 20px 40px -10px #000000;
+	z-index: 200;
+}
 
+.contact-form-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 24px;
+	height: 24px;
+	font-size: 0;
+	cursor: pointer;
+	background: url("../img/red_krestik.png") no-repeat center;
+}
+
+.contact-form-us {
+	font-size: 18px;
+	line-height: 18px;
+	margin: 50px 75px;
+}
+
+.contact-form-us label {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-right: -5px;
+	margin-bottom: 20px;
+}
+
+.contact-form-us label input[type="text"] {
+	margin-right: 20px;
+}
+
+.contact-form-us input[type="text"],
+.contact-form-us input[type="email"] {
+	width: 186px;
+}
+
+.contact-form-us input[type="text"],
+.contact-form-us input[type="email"],
+.contact-form-us textarea {
+	display: block;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	padding: 10px 15px;
+	outline: 0;
+}
+
+.contact-form-us textarea {
+	width: 428px;
+}
+
+.form-btn {
+	background: #f1f1f1;
+	padding: 35px 80px;
+}
+
+.form-btn input[type="submit"] {
+	width: 460px;
+	padding: 12px 10px;
+	margin-right: 20px;
+	border-radius: 3px;
+	outline: 0;
+	border: 0;
+}
