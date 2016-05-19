@@ -567,7 +567,7 @@ div.container-2 .container {
 .cabinet a {
 	position: relative;
 	margin-top: 150px;
-	top: 7px;
+	top: 1px;
 	padding-left: 16px;
 	font-size: 16px;
 	line-height: 18px;
@@ -1949,9 +1949,9 @@ div.container-2 .container {
 .pagination span {
 	display: inline-block;
 	vertical-align: bottom;
-	min-width: 28px;
+	min-width: 27px;
 	margin: 0;
-	margin-right: 7px;
+	margin-right: 5px;
 	margin-bottom: 7px;
 	padding: 10px 5px;
 	font-size: 13px;
@@ -1991,7 +1991,7 @@ div.container-2 .container {
 .content h2 {
 	margin: 0;
 	padding: 0;
-	padding-top: 66px;
+	padding-top: 60px;
 	font-size: 30px;
 	line-height: 30px;
 	color: #000000;
